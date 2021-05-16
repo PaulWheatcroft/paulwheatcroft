@@ -1,59 +1,122 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="" style="margin: 0;">
 
-Welcome USER_NAME,
+# Paul Wheatcroft
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+>
+> The developement portfolio of Paul Wheatcroft
+>
 
-## Gitpod Reminders
+The live site has been deployed via GitHub to https://paulwheatcroft.github.io/paulwheatcroft/
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+### User Stories
 
-A blue button should appear to click: _Make Public_,
+Using the targeted personas, the following list of user stories have been identified to fulfil their needs.
 
-Another blue button should appear to click: _Open Browser_.
+## Design Choices
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+| Description | Hex Colour Value |
+| --- | ----------- |
+| Dark grey which can be used extensively | #1a1a1a |
+| Off white which can be used extensively | #f9f9f9 |
+| Light yellow to be used as a primary colour | #ffdd55 |
+| Darker yellow to be used as a secondary supportive colour | #d4aa00 |
+| Sky blue to be used as a main highlight colour | #80ffe6 |
+| Complimentary supporting  pink highlight colour | #ffaeae |
+| Complimentary supporting  green highlight colour | #b7ffa5 |
 
-Another blue button should appear to click: _Open Browser_.
+## Structure
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Wireframing
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+## Design Choices
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Technologies
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Languages Used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- HTML5
+- CSS3
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Frameworks, Libraries & Programs Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- [Bootstrap](https://getbootstrap.com/) 4.4.1: Bootstrap was used to assist with the framework build and responsiveness of the website
+- [Google Fonts](https://fonts.google.com/): Google fonts were used to import the 'Noto Sans', 'Noto Sans TC' and 'Monoton' font into the style.css file which is used on all pages throughout the project
+- [Font Awesome](https://fontawesome.com/): Font Awesome was used on all pages throughout the website for social media icons
+- [jQuery](https://jquery.com/): jQuery came with Bootstrap to make the navbar responsive
+- [JavaScript](https://www.javascript.com/): A small JavaScript program was used to facility the artist galleries
+- [Git](https://git-scm.com/): Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+- [Gitpod](https://www.gitpod.io/): Gitpod was used as the development environment
+- [GitHub](https://github.com/): GitHub is used to store the projects code after being pushed from Git
+- [Photoshop](https://www.adobe.com/uk/products/photoshopfamily.html): Photoshop was used extensively to create artist images including the hero images
+- [Inkscape](https://inkscape.org/): Inkscape was used to create SVG files where needed such as the artist's logo
+- [Figma](https://www.figma.com/): Figma was used to create the wireframes during the design process
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Testing User Stories from User Experience (UX) Section
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Both HTML and CSS have been validated via
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- W3C [Nu HTML Checker](https://validator.w3.org/nu/)
+    - Releases [index.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
+    - Artists [artists.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fartists.html)
+    - About [about.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fabout.html)
+    - Get in Touch [contact.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcontact.html)
+- W3C CSS Validation Service [CSS Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Accessibility was checked at [www.webaccessibility.com](https://www.webaccessibility.com/)
 
----
+Responsiveness was checked thought using the Google dev tools and [www.responsinator.com](https://www.responsinator.com/?url=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
 
-Happy coding!
+- Windows (multiple computers)
+    - Internet Explorer 11
+    - Microsoft Edge
+    - Chrome
+    - Firefox
+    - Opera
+- macOS (MacBook Air and iMac)
+    - Safari
+    - Chrome
+- Android (OPPO Reno 2, Nokia 3.2, Huawei P Smart 2019)
+    - Native OPPO handset browser
+    - Chrome browser
+- iOS (iPhone 7, iPhoneX, iPhone SE)
+    - Safari
+
+## Bugs and issues
+
+## Deployment
+
+The Project has been deployed via Github Pages. To do this:
+
+1.  Log in to GitHub and locate the GitHub Repository
+2.  At the top of the Repository locate the "Settings" Button on the menu.
+3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4.  Under "Source", click the dropdown called "None" and select "Master Branch". The page will automatically refresh.
+5.  Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Acknowledgements
+
+The project was started using the The Code Institute's [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+The template is integrated with [Bootstrap](https://getbootstrap.com/) 4.5.3 which was used throught the project for the structure and layout of the website.
+
+The Code Institute [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME) was referenced regularly to shape this README correctly.
+
+The [Mark Down Guide](https://www.markdownguide.org/) was also referenced when creating this README.
+
+README icons were created by using Segoe UI Symbol font and Inkscape.
+
+[Google Fonts](https://fonts.google.com/) used for displaying Noto Sans, Noto Sans TC and Monoton fonts.
+
+The streaming icons were downloaded from [simpleicons.org](https://simpleicons.org/)
+
+
+## Further Development Ideas
+
