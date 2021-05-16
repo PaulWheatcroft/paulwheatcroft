@@ -7,15 +7,61 @@
 }
 body {
     background-color: #FCFCFC;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;   
+}
+.primary-div-spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-weight: 100;
 }
 header {
-    height: 90vh;
-    background-image: url("../images/pw.png");
-    background-position: center;
-    background-repeat: no-repeat;
     text-align: center;
 }
-header h1 {
-    font-family: 'Rokkitt', serif;
+header i {
+    font-size: 2em;
+    color: #C4C4C4;
+}
+#hero {
+    background-image: url("../images/pw.png");
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 90vh;
+}
+#hero-heading {
+    margin: auto;
+}
+#hero h1 {
+    font-size: 9.5vw;
+    letter-spacing: 0.5em;
+    line-height: 75%;
+    color: #DCDCDC;
+    mix-blend-mode: exclusion;
+}
+#me-now {
+    background-color: #FCFCFC;
+}
+#me-now p {
+    max-width: 975px;
+    margin: auto;
+}
+
+main {
+    background-color: #FFE2E2;
+}
+footer {
+    background-color: #C4C4C4;
+}
+
+@media all and (min-width: 1025px) {
+    #hero h1 {
+        font-size: 6.5vw;
+        letter-spacing: 0.5em;
+    }
 }
