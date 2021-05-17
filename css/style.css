@@ -8,7 +8,7 @@
 body {
     background-color: #FCFCFC;
     font-family: 'Roboto', sans-serif; 
-    font-weight: 300;   
+    font-weight: 300;
 }
 .primary-div-spacing {
     padding-top: 20px;
@@ -23,16 +23,23 @@ h2 {
     font-weight: 500;
     font-size: 1em;
 }
+h3 {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.pink {
+    color: #FFE2E2;
+}
 header {
     text-align: center;
 }
-header i {
+#sticky-icon {
     font-size: 2em;
     color: #C4C4C4;
 }
 #hero {
     background-image: url("../images/pw.png");
-    background-size: 50vh;
+    background-size: 48vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -54,12 +61,23 @@ header i {
 #me-now p {
     max-width: 975px;
     margin: auto;
+    padding: 0 20px 0 20px;
 }
 
 main {
     background-color: #FFE2E2;
+    padding: 0 20px 0 20px;
 }
-#cv {
+#logos {
+    max-width: 975px;
+    margin: auto;
+    align-content: center;
+}
+#logos img {
+    height: 80px;
+    padding: 20px;
+}
+#cv ul {
     text-align: center;
 }
 #cv i {
@@ -68,6 +86,7 @@ main {
 #cv p {
     max-width: 975px;
     margin: auto;
+    padding: 0 20px 0 20px;
 }
 footer {
     background-color: #C4C4C4;
@@ -80,5 +99,8 @@ footer {
     #hero h1 {
         font-size: 6.5vw;
         letter-spacing: 0.5em;
+    }
+    #cv {
+        text-align: center;
     }
 }
