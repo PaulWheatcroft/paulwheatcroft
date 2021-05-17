@@ -19,6 +19,10 @@ h1 {
     font-family: 'Rokkitt', serif;
     font-weight: 100;
 }
+h2 {
+    font-weight: 500;
+    font-size: 1em;
+}
 header {
     text-align: center;
 }
@@ -30,7 +34,7 @@ header i {
     background-image: url("../images/pw.png");
     background-size: 50vh;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-attachment: fixed;
     height: 90vh;
 }
@@ -55,9 +59,22 @@ header i {
 main {
     background-color: #FFE2E2;
 }
+#cv {
+    text-align: center;
+}
+#cv i {
+    margin-top: 20px;
+}
+#cv p {
+    max-width: 975px;
+    margin: auto;
+}
 footer {
     background-color: #C4C4C4;
+    text-align: center;
 }
+
+
 
 @media all and (min-width: 1025px) {
     #hero h1 {
