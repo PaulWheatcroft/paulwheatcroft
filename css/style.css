@@ -67,6 +67,7 @@ header {
 main {
     background-color: #FFE2E2;
     padding: 0 20px 0 20px;
+    text-align: center;
 }
 #logos {
     max-width: 975px;
@@ -80,8 +81,8 @@ main {
 #cv ul {
     text-align: center;
 }
-#cv i {
-    margin-top: 20px;
+#cv li {
+    padding: 20px 0 20px 0;
 }
 #cv p {
     max-width: 975px;
