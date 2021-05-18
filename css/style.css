@@ -33,10 +33,6 @@ h3 {
 header {
     text-align: center;
 }
-#sticky-icon {
-    font-size: 2em;
-    color: #C4C4C4;
-}
 #hero {
     background-image: url("../images/pw.png");
     background-size: 48vh;
@@ -61,9 +57,24 @@ header {
 #me-now p {
     max-width: 975px;
     margin: auto;
-    padding: 0 20px 0 20px;
+    padding: 20px 20px 0 20px;
 }
-
+#nav-bar {
+    background-color: #505050;
+    text-align: center;
+    color: #FFE2E2;
+}
+#nav-bar-menu {
+    margin: 0;
+}
+#nav-bar-menu li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#nav-bar a {
+    color: #FFE2E2;
+    text-decoration: none;
+}
 main {
     background-color: #FFE2E2;
     padding: 0 20px 0 20px;
@@ -90,8 +101,9 @@ main {
     padding: 0 20px 0 20px;
 }
 footer {
-    background-color: #C4C4C4;
+    background-color: #505050;
     text-align: center;
+    color: #FFE2E2;
 }
 
 
