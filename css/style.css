@@ -53,6 +53,7 @@ header {
 }
 #me-now {
     background-color: #FCFCFC;
+    padding-bottom: 40px;
 }
 #me-now p {
     max-width: 975px;
@@ -152,7 +153,7 @@ footer a:visited {
         text-align: left;
     }
     .project-links {
-        
+        clear: both;
     }
     #projects li {
         padding: 20px;
