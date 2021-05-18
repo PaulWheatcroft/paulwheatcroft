@@ -87,6 +87,7 @@ main {
 }
 #projects img {
     width: 300px;
+    padding-bottom: 20px;
 }
 #projects p {
     text-align: left;
