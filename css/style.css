@@ -78,7 +78,21 @@ header {
 main {
     background-color: #FFE2E2;
     padding: 0 20px 0 20px;
+}
+#projects {
+    max-width: 975px;
+    margin: auto;
     text-align: center;
+}
+#projects img {
+    width: 300px;
+}
+#projects p {
+    text-align: left;
+}
+#projects a {
+    text-decoration: none;
+    color: #505050;
 }
 #logos {
     max-width: 975px;
@@ -115,5 +129,19 @@ footer {
     }
     #cv {
         text-align: center;
+    }
+    #projects img {
+        float: left;
+        width: 350px;
+        padding: 0 20px 0 20px;
+    }
+    #projects h2 {
+        text-align: left;
+    }
+    .project-links {
+        clear: both;
+    }
+    #projects li {
+        padding: 20px;
     }
 }
