@@ -34,11 +34,10 @@ header {
     text-align: center;
 }
 #hero {
-    background-image: url("../images/pw.png");
+    background-image: url("/images/pw.png");
     background-size: 48vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     height: 90vh;
 }
 #hero-heading {
@@ -138,6 +137,9 @@ footer a:visited {
 
 
 @media all and (min-width: 1025px) {
+    #hero {
+        background-attachment: fixed;
+    }
     #hero h1 {
         font-size: 6.5vw;
         letter-spacing: 0.5em;
