@@ -78,6 +78,4 @@ The project was started using the The Code Institute's [Gitpod Full Template](ht
 
 The template is integrated with [Bootstrap](https://getbootstrap.com/) which was used throught the project for the structure and layout of the website.
 
-README icons were created by using Segoe UI Symbol font and Inkscape.
-
 

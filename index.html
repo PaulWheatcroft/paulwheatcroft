@@ -24,8 +24,8 @@
 
 <div id="hero" class="d-flex align-items-center">
   <div id="hero-heading" class="p-2">
-    <h1>Paul</h1>
-    <h1>Wheatcroft</h1>
+    <h1 class="wow animate__animated animate__fadeIn animate__slow">Paul</h1>
+    <h1 class="wow animate__animated animate__fadeIn animate__slow">Wheatcroft</h1>
   </div>
 </div>
 
@@ -35,7 +35,7 @@
   <p class="wow animate__animated animate__fadeIn">I have loved graphic design ever since I was a child. The way shapes and colours are brought together to create something which is both aesthetically beautiful and functional is a wonderful thing. This is where my love of web design and web development grew from. Initially, in the early 00s, this was in the form of clumsy Frontpage sites but later that decade I started a web design company as a hobby, building online presences for many small businesses.</p>
   <p class="wow animate__animated animate__fadeIn">In 2020 I decided I wanted to change my career and follow my passion, so I enrolled in a Full Stack Web Developer diploma through The Code Institute to become a professional web developer.</p>
   <p class="wow animate__animated animate__fadeIn">I’m an Agile certified professional too who’s used to handling deadlines, budgets and stakeholders.</p>
-  <p class="wow animate__animated animate__fadeIn">If you have a project or role for which you think I’d be suitable, I’d love to talk to you about it. Please get in touch.</p>
+  <p class="wow animate__animated animate__fadeIn">If you have a role or project for which you think I’d be suitable, I’d love to talk to you about it. Please get in touch.</p>
 
 </div>
 
@@ -51,17 +51,56 @@
 <main>
   <div id="projects" class="primary-div-spacing wow animate__animated animate__fadeIn">
     <h1>Projects</h1>
-    <!-- Project1 -->
-    <div class="project-container wow animate__animated animate__fadeInLeft animate__slow">
+    <!-- Owery -->
+    <div class="project-container wow animate__animated animate__fadeIn animate__slow">
+      <div class="project-image">
+        <img src="images/owery.png" alt="Carp Buzz">
+      </div>
+      <div class="project-text">
+        <h2>Owery Joinery</h2>
+        <p>Owery Joinery are a joinery company based in Somerset. This project is intended to replace their current website</p>
+        <p>Developed for my final milestone project “Full Stack Frameworks”.
+          The project purpose was to build a fully functioning e-commerce website using Python, Django, and PostgreSQL.
+          I integrated Stripe as the payement service taking advantage of thier payment intent process.</p>
+      </div>
+      <div class="project-links">
+        <ul class="list-unstyled list-inline-item">
+          <li class="list-inline-item"><i class="fas fa-globe"></i> <a href="https://owery-joinery.herokuapp.com/" target="_blank"> Live Site</a></li>
+          <li class="list-inline-item"><i class="fab fa-github"></i> <a href="https://github.com/PaulWheatcroft/owery-joinery" target="_blank"> GitHub Repo</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Carp Buzz -->
+    <div class="project-container wow animate__animated animate__fadeIn animate__slow">
+      <div class="project-image">
+        <img src="images/carp-buzz.png" alt="Carp Buzz">
+      </div>
+      <div class="project-text">
+        <h2>Carp Buzz</h2>
+        <p>This web-application is a directories of carp fisheries in the sout-west of the UK.</p>
+        <p>This website was developed for my third milestone project “Backend Development”.
+          The project purpose was to build a document database driven Python web application using Flask, and MongoDB.
+          For the layout an styling I used MaterializedCSS</p>
+      </div>
+      <div class="project-links">
+        <ul class="list-unstyled list-inline-item">
+          <li class="list-inline-item"><i class="fas fa-globe"></i> <a href="http://carp-buzz-dev.herokuapp.com/get_fisheries" target="_blank"> Live Site</a></li>
+          <li class="list-inline-item"><i class="fab fa-github"></i> <a href="https://github.com/PaulWheatcroft/CarpBuzz" target="_blank"> GitHub Repo</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Cocktail Shaker -->
+    <div class="project-container wow animate__animated animate__fadeIn animate__slow">
       <div class="project-image">
         <img src="images/the-cocktail-shaker.png" alt="The Cocktail Shaker">
       </div>
       <div class="project-text">
         <h2>the Cocktail Shaker</h2>
-        <p>This website was developed for my second milestone project “Interactive Front-End 
-          Development”. The project purpose was the presentation of interactive data.
-          This was achieved through integrating a third party API and the primary language was vanilla JavaScript. Emailjs was alo used to enable email distribution within the web browser.</p>
-        <p>The web-application returns cocktail recipes based on ingredients the user has in the back of their drinks cabinet!</p>
+        <p>This web-application returns cocktail recipes based on ingredients the user has in the back of their drinks cabinet!</p>
+        <p>This website was developed for my second milestone project “Interactive Front-End Development”.
+          The project purpose was the presentation of interactive data.
+          This was achieved through integrating a third party API and the primary language was vanilla JavaScript.
+          Emailjs was alo used to enable email distribution within the web browser.</p>
       </div>
       <div class="project-links">
         <ul class="list-unstyled list-inline-item">
@@ -70,8 +109,8 @@
         </ul>
       </div>
     </div>
-    <!-- Project2 -->
-    <div class="project-container wow animate__animated animate__fadeInRight animate__slow">
+    <!-- 8 Meg -->
+    <div class="project-container wow animate__animated animate__fadeIn animate__slow">
       <div class="project-image">
         <img src="images/eight-meg.png" alt="The Cocktail Shaker">
       </div>
@@ -88,39 +127,21 @@
         </ul>
       </div>
     </div>
-    <!-- Project3 -->
-    <div class="project-container wow animate__animated animate__fadeInLeft animate__slow">
+    <!-- Down It! -->
+    <div class="project-container wow animate__animated animate__fadeIn animate__slow">
       <div class="project-image">
         <img src="images/mines-a-pint.png" alt="The Cocktail Shaker">
       </div>
       <div class="project-text">
         <h2>Down It!</h2>
-        <p>The product of my first ever Hackathon. An interactive quiz built to celebrate St. Patricks Day. A superb team effort, from a group of students thrown together to deliver a database driven site from inception to deployment in 5 days! My primary role in the team was the initial frontend design and wireframing of the application. After that I was able to bring the application to life using JQuery to animate elements of the user experince.</p>
+        <p>The product of my first ever Hackathon. An interactive quiz built to celebrate St. Patricks Day. A superb team effort, from a group of students thrown together to deliver a database driven site from inception to deployment in 5 days! My primary role in the team was the initial frontend design and wireframing of the application. After that I was able to bring the application to life using jQuery to animate elements of the user experince.</p>
         <p>It was really enjoyable being part of a team and getting instant feedback on my work and collaborating at pace. To keep the project on track we held a daily meeting and made extensive use of Git branching to avoid conflicts.</p>
-        
       </div>
       <div class="project-links">
         <ul class="list-unstyled list-inline-item">
           <li class="list-inline-item"><i class="fas fa-globe"></i> <a href="https://down-it.herokuapp.com/" target="_blank"> Live Site</a></li>
           <li class="list-inline-item"><i class="fab fa-github"></i> <a href="https://github.com/GJSayers/downit" target="_blank"> GitHub Repo</a></li>
           <li class="list-inline-item"><i class="fas fa-users-cog"></i> <a href="https://hackathon.codeinstitute.net/teams/37/" target="_blank"> Team Site</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- Project4 -->
-    <div class="project-container wow animate__animated animate__fadeInRight animate__slow">
-      <div class="project-image">
-        <img src="images/paul-wheatcroft.png" alt="The Cocktail Shaker">
-      </div>
-      <div class="project-text">
-        <h2>PaulWheatcroft.me</h2>
-        <p>And my own porfolio site is of course one of my projects. I needed a clean and elegant site that was able to convey my style and personality. I also challenged myself to produce the site in just a couple of days.</p>
-        <p>The entire site was designed in Figma which is my tool of choice for wireframing. I used a CSS blend mode for the site title and wow.js and animate.css to give the site a dynamic feel without the need to reinvent the wheel.</p>        
-      </div>
-      <div class="project-links">
-        <ul class="list-unstyled list-inline-item">
-          <li class="list-inline-item"><i class="fas fa-globe"></i> <a href="https://www.paulwheatcroft.me" target="_blank"> Live Site</a></li>
-          <li class="list-inline-item"><i class="fab fa-github"></i> <a href=" https://github.com/PaulWheatcroft/paulwheatcroft" target="_blank"> GitHub Repo</a></li>
         </ul>
       </div>
     </div>
@@ -135,8 +156,10 @@
       <img src="images/css-5.svg" alt="CSS">
       <img src="images/logo-javascript.svg" alt="JavaScript">
       <img src="images/python-5.svg" alt="Python">
-      <img src="images/jquery.png" alt="JQuery">      
-      <img src="images/git-icon.svg" alt="Git">
+      <img src="images/jquery.png" alt="jQuery">
+      <img src="images/django.svg" alt="Django">
+      <img src="images/flask.svg" alt="DJango">        
+      <img src="images/heroku-4.svg" alt="Git">
       <img src="images/bootstrap-4.svg" alt="Bootstrap">
       <img src="images/github-icon.svg" alt="GitHub">
       <img src="images/visual-studio-code-1.svg" alt="Visual Studio Code">

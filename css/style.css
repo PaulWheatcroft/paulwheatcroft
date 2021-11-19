@@ -60,9 +60,10 @@ header {
     padding: 20px 20px 0 20px;
 }
 #nav-bar {
-    background-color: #505050;
+    background-color: #505050e7;
     text-align: center;
     color: #FFE2E2;
+    padding: 10px;
 }
 #nav-bar-menu {
     margin: 0;
